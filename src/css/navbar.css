@@ -1,0 +1,38 @@
+.nav-tab {
+    height: 100%;
+    line-height: 80px;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.nav-tab:hover {
+    background-color: #353535;
+    border-radius: 10px;
+}
+
+.custom-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    list-style: none;
+    background-color: #242526;
+    margin: 0;
+    height: 80px;
+}
+
+.active {
+    color: #2D88FF;
+    border-bottom: 3px solid #2D88FF;
+}
